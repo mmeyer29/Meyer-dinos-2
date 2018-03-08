@@ -1,6 +1,6 @@
 describe("Form submission", () => {
   it("Has a working profile page", () => {
-    cy.visit("https://csm-gdinos2.herokuapp.com/");
+    cy.visit("https://meyer-dino-2.firebaseapp.com/");
 
     cy.get("#profiles > li").should("have.length.gte", 3);
 
